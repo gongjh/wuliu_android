@@ -1,0 +1,86 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <!-- 首页 -->
+    <style name="home_btn_input_style">
+        <item name="android:background">@drawable/home_input_selector</item>
+    </style>
+    <style name="home_btn_output_style">
+        <item name="android:background">@drawable/home_output_selector</item>
+    </style>
+    <style name="home_btn_lookfor_style">
+        <item name="android:background">@drawable/home_lookfor_selector</item>
+    </style>
+    <style name="home_btn_contact_style">
+        <item name="android:background">@drawable/home_contact_selector</item>
+    </style>
+    <!-- 入库   搜索文本框 -->
+    <style name="input_home_et">
+        <item name="android:layout_width">@dimen/input_home_search_et_w</item>
+	    <item name="android:layout_height">@dimen/input_home_search_et_h</item>
+	    <item name="android:layout_marginTop">@dimen/input_home_search_et_mt</item>
+	    <item name="android:layout_marginLeft">@dimen/input_home_search_et_ml</item>
+	    <item name="android:background">@drawable/input_home_search_et</item>
+        <item name="android:paddingLeft">@dimen/input_home_search_et_pl</item>
+        <item name="android:paddingRight">@dimen/input_home_search_et_pr</item>
+        <item name="android:textSize">@dimen/input_home_search_et_ts</item>
+    </style>
+    <!-- 入库  搜索按钮 -->
+    <style name="input_home_bt">
+        <item name="android:layout_width">@dimen/input_home_search_bt_w</item>
+        <item name="android:layout_height">@dimen/input_home_search_bt_h</item>
+        <item name="android:layout_marginTop">@dimen/input_home_search_bt_mt</item>
+        <item name="android:layout_marginLeft">@dimen/input_home_search_bt_ml</item>
+        <item name="android:background">@drawable/input_home_search_btn</item>
+    </style>
+    <!-- 入库  新建按钮 -->
+    <style name="input_home_newform_bt_style">
+        <item name="android:background">@drawable/input_home_newform_bt_selector</item>
+    </style>
+    <style name="input_home_newform_btn_style">
+        <item name="android:background">@drawable/input_home_newform_btn_selector</item>
+    </style>
+    
+    <!-- 入库  下拉框 -->
+    <style name="input_newform_sp_style">
+        <item name="android:background">@drawable/input_newform_sp_selector</item>
+    </style>
+    <!-- 入库  保存按钮 -->
+    <style name="input_newform_save_style">
+        <item name="android:background">@drawable/input_newform_save_selector</item>
+    </style>
+    
+	<!-- 出库 详情   按钮 -->
+    <style name="output_detail_btn_style">
+        <item name="android:background">@drawable/output_detail_btn_selector</item>
+    </style>
+    
+    <!-- 查询  首页  ok按钮 -->
+    <style name="lookfor_home_ok_bt_style">
+        <item name="android:background">@drawable/lookfor_home_ok_bt_selector</item>
+    </style>
+    
+    <!-- 联系人 首页   item按钮 -->
+   <style name="contact_home_item_bt_style">
+        <item name="android:background">@drawable/contact_home_item_bt_selector</item>
+    </style>
+    
+   
+    
+</resources>

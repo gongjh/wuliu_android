@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_bg"
+    tools:context=".MainActivity" >
+
+    <Button 
+        android:id="@+id/home_input_bt"
+        android:layout_width="@dimen/home_input_btn_w"
+        android:layout_height="@dimen/home_input_btn_h"
+        android:layout_marginTop="@dimen/home_input_btn_mt"
+        android:layout_marginLeft="@dimen/home_input_btn_ml"
+        style="@style/home_btn_input_style"
+        />
+    
+    <Button 
+        android:id="@+id/home_output_bt"
+        android:layout_width="@dimen/home_input_btn_w"
+        android:layout_height="@dimen/home_input_btn_h"
+        android:layout_marginTop="@dimen/home_output_btn_mt"
+        android:layout_marginLeft="@dimen/home_output_btn_ml"
+        style='@style/home_btn_output_style'
+        />
+    
+    <Button 
+        android:id="@+id/home_lookfor_bt"
+        android:layout_width="@dimen/home_input_btn_w"
+        android:layout_height="@dimen/home_input_btn_h"
+        android:layout_marginTop="@dimen/home_lookfor_btn_mt"
+        android:layout_marginLeft="@dimen/home_lookfor_btn_ml"
+        style="@style/home_btn_lookfor_style"
+        /> 
+    
+    <Button 
+        android:id="@+id/home_contact_bt"
+        android:layout_width="@dimen/home_input_btn_w"
+        android:layout_height="@dimen/home_input_btn_h"
+        android:layout_marginTop="@dimen/home_contact_btn_mt"
+        android:layout_marginLeft="@dimen/home_contact_btn_ml"
+        style="@style/home_btn_contact_style"
+        /> 
+    
+</RelativeLayout>

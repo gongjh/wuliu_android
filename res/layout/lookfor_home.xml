@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/all_home_bg"
+    android:orientation="vertical" >
+    
+    <FrameLayout 
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/lookfor_home_rl_h"
+        android:layout_marginTop="@dimen/lookfor_home_rl_mt"
+        >
+        
+        <Button 
+            android:id="@+id/lookfor_home_company_bt"
+            android:layout_width="@dimen/lookfor_home_company_sp_w"
+            android:layout_height="@dimen/lookfor_home_company_sp_h"
+            android:layout_marginTop="@dimen/lookfor_home_company_sp_mt"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:background="@drawable/lookfor_home_company_sp"
+            />
+        
+        
+        <Button
+            android:id="@+id/lookfor_home_first_bt" 
+            android:layout_width="@dimen/lookfor_home_company_sp_w"
+            android:layout_height="@dimen/lookfor_home_company_sp_h"
+            android:layout_marginTop="@dimen/lookfor_home_first_bt_mt"
+            android:layout_marginLeft="@dimen/lookfor_home_first_bt_ml"
+            android:background="@drawable/lookfor_home_first_bt_bg"/>
+        <Button
+            android:id="@+id/lookfor_home_end_bt" 
+            android:layout_width="@dimen/lookfor_home_company_sp_w"
+            android:layout_height="@dimen/lookfor_home_company_sp_h"
+            android:layout_marginTop="@dimen/lookfor_home_first_bt_mt"
+            android:layout_marginLeft="@dimen/lookfor_home_end_bt_ml"
+            android:background="@drawable/lookfor_home_end_bt_bg"/>
+        
+    </FrameLayout>
+	<Button 
+	    android:id="@+id/lookfor_home_ok_bt"
+	    android:layout_width="@dimen/lookfor_home_ok_bt_w"
+	    android:layout_height="@dimen/lookfor_home_ok_bt_h"
+	    android:layout_marginTop="@dimen/lookfor_home_ok_bt_mt"
+	    android:layout_gravity="center_horizontal"
+	    style="@style/lookfor_home_ok_bt_style"/>
+    
+</LinearLayout>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 登录页面 -->
+    <dimen name="login_ll_w">291dp</dimen>
+    <dimen name="login_ll_h">140dp</dimen>
+    <dimen name="login_ll_mt">302dp</dimen>
+    
+    <dimen name="login_name_tv_h">35dp</dimen>
+    <dimen name="login_name_tv_pl">50dp</dimen>
+    
+    <dimen name="login_pwd_tv_mt">17dp</dimen>
+    
+    <dimen name="login_bt_h">36dp</dimen>
+    <dimen name="login_bt_mt">20dp</dimen>
+    
+    <!-- 首页 -->
+    <dimen name="home_input_btn_w">140dp</dimen>
+    <dimen name="home_input_btn_h">146.5dp</dimen>
+    <dimen name="home_input_btn_mt">62.5dp</dimen>
+    <dimen name="home_input_btn_ml">75dp</dimen>
+    
+    <dimen name="home_output_btn_mt">170.5dp</dimen>
+    <dimen name="home_output_btn_ml">140.5dp</dimen>
+    
+    <dimen name="home_lookfor_btn_mt">277dp</dimen>
+    <dimen name="home_lookfor_btn_ml">72.6dp</dimen>
+    
+    <dimen name="home_contact_btn_mt">385dp</dimen>
+    <dimen name="home_contact_btn_ml">138.5dp</dimen>
+    <!-- 入库页面 -->
+    <dimen name="input_home_scan_bt_w">65dp</dimen>
+    <dimen name="input_home_scan_bt_h">31.5dp</dimen>
+    <dimen name="input_home_scan_bt_mt">46.5dp</dimen>
+    <dimen name="input_home_scan_bt_ml">20dp</dimen>
+    
+    <dimen name="input_home_search_et_w">275dp</dimen>
+    <dimen name="input_home_search_et_h">31.5dp</dimen>
+    <dimen name="input_home_search_et_mt">46.5dp</dimen>
+    <dimen name="input_home_search_et_ml">28dp</dimen>
+    <dimen name="input_home_search_et_pl">15dp</dimen>
+    <dimen name="input_home_search_et_pr">25dp</dimen>
+    <dimen name="input_home_search_et_ts">20sp</dimen>
+    <dimen name="input_home_lv_item_ts">15sp</dimen>
+    
+    
+    <dimen name="input_home_search_bt_w">29dp</dimen>
+    <dimen name="input_home_search_bt_h">32.5dp</dimen>
+    <dimen name="input_home_search_bt_mt">45.5dp</dimen>
+    <dimen name="input_home_search_bt_ml">13dp</dimen>
+    
+    <dimen name="input_home_newform_bt_w">268.3dp</dimen>
+    <dimen name="input_home_newform_bt_h">47dp</dimen>
+    <dimen name="input_home_newform_bt_mt">20.2dp</dimen>
+    <dimen name="input_home_newform_bt_ml">16.2dp</dimen>
+    
+    <dimen name="input_home_newform_btn_w">59dp</dimen>
+    <dimen name="input_home_newform_btn_h">47dp</dimen>
+    <dimen name="input_home_newform_btn_mt">98dp</dimen>
+    <dimen name="input_home_newform_btn_ml">1.5dp</dimen>
+    
+    <dimen name="input_home_newform_ll_mt">10dp</dimen>
+    <!-- 入库  新建表单页面 -->
+    <dimen name="input_newform_ll_w">316dp</dimen>
+    <dimen name="input_newform_ll_h">444dp</dimen>
+    <dimen name="input_newform_ll_mt">50.5dp</dimen>
+    
+    <dimen name="input_newform_infor_ll_h">40dp</dimen>
+    
+    <dimen name="input_newform_tv_w">120dp</dimen>
+    
+    <dimen name="input_newform_save_bt_w">127dp</dimen>
+    <dimen name="input_newform_save_bt_h">46dp</dimen>
+    <dimen name="input_newform_save_bt_mt">37dp</dimen>
+    
+    <!-- 出库 详情 页面 -->
+    <dimen name="output_home_return_bt_w">120dp</dimen>
+    <dimen name="output_home_return_bt_h">50dp</dimen>
+    <dimen name="output_home_return_bt_ml">40dp</dimen>
+    
+    <dimen name="output_home_sent_bt_ml">40dp</dimen>
+    
+    <dimen name="output_detail_bt_ts">17sp</dimen>
+    <dimen name="output_detail_bt_w">120dp</dimen>
+	<dimen name="output_detail_bt_h">45dp</dimen>
+	
+	<dimen name="output_detail_personget_bt_mt">17dp</dimen>
+	<dimen name="output_detail_personget_bt_ml">124dp</dimen>
+    
+	<dimen name="output_detail_photo_bt_mt">40dp</dimen>
+	<dimen name="output_detail_photo_bt_ml">26dp</dimen>
+	
+	<dimen name="output_detail_companyget_bt_ml">222dp</dimen>
+	
+	<dimen name="output_detail_update_bt_mt">60dp</dimen>
+	
+	<!-- 查询  首页 -->
+	<dimen name="lookfor_home_rl_h">270dp</dimen>
+	<dimen name="lookfor_home_rl_mt">130dp</dimen>
+	
+	<dimen name="lookfor_home_company_sp_w">149dp</dimen>
+	<dimen name="lookfor_home_company_sp_h">144dp</dimen>
+	<dimen name="lookfor_home_company_sp_mt">4.5dp</dimen>
+	
+	<dimen name="lookfor_home_first_bt_mt">111dp</dimen>
+	<dimen name="lookfor_home_first_bt_ml">39dp</dimen>
+	
+	<dimen name="lookfor_home_end_bt_ml">170dp</dimen>
+	
+	<dimen name="lookfor_home_ok_bt_w">125dp</dimen>
+	<dimen name="lookfor_home_ok_bt_h">48dp</dimen>
+	<dimen name="lookfor_home_ok_bt_mt">63dp</dimen>
+	
+	<!-- 查询  详情页 -->
+	<dimen name="lookfor_detail_top_ll_w">339dp</dimen>
+	<dimen name="lookfor_detail_top_ll_h">152dp</dimen>
+	<dimen name="lookfor_detail_top_ll_mt">37dp</dimen>
+	
+	<dimen name="lookfor_detail_top_ltv_w">100dp</dimen>
+	<dimen name="lookfor_detail_top_ltv_ml">20dp</dimen>
+	
+	<dimen name="lookfor_detail_top_tv_w">200dp</dimen>
+	<dimen name="lookfor_detail_top_tv_h">30dp</dimen>
+	<dimen name="lookfor_detail_top_tv_mt">15dp</dimen>
+	<dimen name="lookfor_detail_top_tv_ml">10dp</dimen>
+	
+	<dimen name="lookfor_detail_info_tv_w">300dp</dimen>
+	<dimen name="lookfor_detail_info_tv_h">40dp</dimen>
+	
+	<dimen name="lookfor_detail_center_ll_h">44dp</dimen>
+	
+	<dimen name="lookfor_detail_sent_w">77dp</dimen>
+	<dimen name="lookfor_detail_sent_h">35dp</dimen>
+	<dimen name="lookfor_detail_sent_ml">7dp</dimen>
+	<dimen name="lookfor_detail_sent_pl">18dp</dimen>
+	
+	<dimen name="lookfor_detail_remain_ml">5dp</dimen>
+	
+	<!-- 联系人 -->
+	<dimen name="contact_home_icon_w">18dp</dimen>
+	<dimen name="contact_home_icon_ml">18dp</dimen>
+	<dimen name="contact_home_icon_mt">10dp</dimen>
+	
+	<dimen name="contact_home_tv_w">143dp</dimen>
+	<dimen name="contact_home_tv_h">35dp</dimen>
+	<dimen name="contact_home_tv_ml">18dp</dimen>
+	<dimen name="contact_home_tv_mt">2dp</dimen>
+	<dimen name="contact_home_tv_ts">19sp</dimen>
+	
+	<dimen name="contact_home_bt_w">60dp</dimen>
+	<dimen name="contact_home_bt_h">28dp</dimen>
+	<dimen name="contact_home_bt_ml">23.5dp</dimen>
+	<dimen name="contact_home_bt_mt">8dp</dimen>
+	<dimen name="contact_home_bt_ts">15sp</dimen>
+	
+	<dimen name="contact_home_bt_r_ml">97.5dp</dimen>
+	
+	<dimen name="contact_home_tra_icon_mt">2dp</dimen>
+	
+	<dimen name="contact_home_remark_w">290dp</dimen>
+	<dimen name="contact_home_remark_h">35dp</dimen>
+	
+</resources>

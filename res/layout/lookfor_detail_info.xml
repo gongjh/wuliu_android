@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/all_home_bg"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+  <LinearLayout
+      android:layout_width="@dimen/input_newform_ll_w"
+      android:layout_height="@dimen/input_newform_ll_h"
+      android:layout_gravity="center"
+      android:layout_marginTop="@dimen/input_newform_ll_mt"
+      android:background="@drawable/output_detail_ll_bg"
+      android:orientation="vertical" >
+
+      <TextView 
+          android:id="@+id/lookfor_detail_info_company_tv"
+          android:layout_width="151dp"
+          android:layout_height="31dp"
+          android:layout_marginTop="66dp"
+          android:gravity="center"
+          android:layout_gravity="center_horizontal"
+          android:textSize="@dimen/output_detail_bt_ts"
+          android:textColor="@color/output_detail_form_tv"
+          android:text="顺丰快递"/>
+     
+      <TextView 
+          android:id="@+id/lookfor_detail_info_tel_tv"
+          android:layout_width="293dp"
+          android:layout_height="30dp"
+          android:layout_marginTop="35dp"
+          android:gravity="center"
+          android:layout_gravity="center_horizontal"
+          android:singleLine="true"
+          android:textSize="@dimen/output_detail_bt_ts"
+          android:textColor="@color/output_detail_form_tv"
+          android:text="15312345678"/>
+      
+      <TextView 
+         android:id="@+id/lookfor_detail_info_name_tv"
+         android:layout_width="293dp"
+         android:layout_height="30dp"
+         android:layout_marginTop="40dp"
+         android:gravity="center"
+         android:layout_gravity="center_horizontal"
+         android:singleLine="true"
+         android:textSize="@dimen/output_detail_bt_ts"
+          android:textColor="@color/output_detail_form_tv"
+         android:text="名字"/>
+      
+      <TextView 
+          android:id="@+id/lookfor_detail_info_type_tv"
+          android:layout_width="293dp"
+          android:layout_height="30dp"
+          android:layout_marginTop="38dp"
+          android:layout_gravity="center_horizontal"
+          android:gravity="center"
+          android:singleLine="true"
+          android:textSize="@dimen/output_detail_bt_ts"
+          android:textColor="@color/output_detail_form_tv"
+          android:text="普通件"/>
+         
+     <TextView 
+          android:id="@+id/lookfor_detail_info_order_tv"
+          android:layout_width="293dp"
+          android:layout_height="30dp"
+          android:layout_marginTop="34dp"
+          android:layout_gravity="center_horizontal"
+          android:gravity="center"
+          android:singleLine="true"
+          android:textSize="@dimen/output_detail_bt_ts"
+          android:textColor="@color/output_detail_form_tv"
+          android:text="239j3892*"/>
+      
+      <TextView 
+          android:id="@+id/lookfor_detail_info_shelf_tv"
+          android:layout_width="293dp"
+          android:layout_height="30dp"
+          android:layout_marginTop="38dp"
+          android:gravity="center"
+          android:layout_gravity="center_horizontal"
+          android:singleLine="true"
+          android:textSize="@dimen/output_detail_bt_ts"
+          android:textColor="@color/output_detail_form_tv"
+          android:text="010203"/>
+      
+	</LinearLayout>  
+    
+</LinearLayout>

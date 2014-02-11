@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/contact_home_bg"
+    android:orientation="vertical"
+    tools:context=".InputActivity">
+   
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_marginTop="23dp"
+        android:orientation="horizontal">
+	    <Button 
+	        android:id="@+id/contact_home_sentfailed_bt"
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:background="@drawable/contact_home_sentfailed_down"
+	        />
+	    
+	    <Button 
+	        android:id="@+id/contact_home_notsent_bt"
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:background="@drawable/contact_home_notsent_up"
+	        />
+	    
+   </LinearLayout>
+	
+    <ListView 
+       android:id="@+id/contact_home_lv"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:listSelector="@android:color/transparent"
+       android:footerDividersEnabled="true"
+       android:divider="#08134a"
+       android:dividerHeight="2px"/>
+
+</LinearLayout>

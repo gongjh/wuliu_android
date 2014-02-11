@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.megasound.youthbegan.wuliumanager"
+    android:versionCode="6"
+    android:versionName="1.4.1" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:label="just test"
+        android:targetPackage="cn.megasound.youthbegan.wuliumanager" />
+    <!-- 发短信 -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <application
+        android:name="cn.megasound.youthbegan.wuliumanager.application.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+        <activity
+            android:name="cn.megasound.youthbegan.wuliumanager.view.LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="cn.megasound.youthbegan.wuliumanager.view.MainActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name="cn.megasound.youthbegan.wuliumanager.view.InputActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.megasound.youthbegan.wuliumanager.view.NewformActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.megasound.youthbegan.wuliumanager.view.DetailActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.megasound.youthbegan.wuliumanager.view.CaptureActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.megasound.youthbegan.wuliumanager.view.OutputActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.megasound.youthbegan.wuliumanager.view.ReturnSignatureActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.megasound.youthbegan.wuliumanager.view.SentSignatureActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.megasound.youthbegan.wuliumanager.view.UpdateActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.megasound.youthbegan.wuliumanager.view.LookforActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.megasound.youthbegan.wuliumanager.view.LookforDetailActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.megasound.youthbegan.wuliumanager.view.LookforInfoActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.megasound.youthbegan.wuliumanager.view.ContactActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.megasound.youthbegan.wuliumanager.LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+    </application>
+
+</manifest>

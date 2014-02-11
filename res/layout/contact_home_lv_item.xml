@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+    >
+    	
+    	    <RelativeLayout 
+	    	    android:id="@+id/input_home_lv_item_ll"
+	    	    android:layout_width="match_parent"
+	    	    android:layout_height="80dp"
+			    android:background="@drawable/contact_home_lv_item_bg"
+	    	    >
+	    	   
+	            <TextView
+	                android:id="@+id/contact_home_lv_item_tel_tv"
+	                android:layout_width="@dimen/contact_home_tv_w"
+	                android:layout_height="@dimen/contact_home_tv_h"
+	                android:layout_marginLeft="@dimen/contact_home_tv_ml"
+	                android:layout_marginTop="@dimen/contact_home_tv_mt"
+	                android:gravity="center"
+	                android:textSize="@dimen/contact_home_tv_ts"
+	                android:text="18617195607"
+	                android:autoLink="phone"
+	                />
+	            <!-- <Button
+	                android:textColorLink="#000000"
+	                android:id="@+id/contact_home_lv_item_center_bt"
+	                android:layout_width="@dimen/contact_home_bt_w"
+	                android:layout_height="@dimen/contact_home_bt_h"
+	                android:layout_toRightOf="@id/contact_home_lv_item_tel_tv"
+	                android:layout_marginLeft="@dimen/contact_home_bt_ml"
+	                android:layout_marginTop="@dimen/contact_home_bt_mt"
+	                android:textSize="@dimen/contact_home_bt_ts"
+	                android:textColor="#ffffff"
+	                android:text="重新发送"
+	                style="@style/contact_home_item_bt_style"/> -->
+	            <Button
+	                android:id="@+id/contact_home_lv_item_right_bt"
+	                android:layout_width="@dimen/contact_home_bt_w"
+	                android:layout_height="@dimen/contact_home_bt_h"
+	                android:layout_toRightOf="@id/contact_home_lv_item_tel_tv"
+	                android:layout_marginLeft="@dimen/contact_home_bt_r_ml"
+	                android:layout_marginTop="@dimen/contact_home_bt_mt"
+	                android:textSize="@dimen/contact_home_bt_ts"
+	                android:textColor="#ffffff"
+	                android:text="编辑"
+	                style="@style/contact_home_item_bt_style"/>
+	            <ImageView 
+	                android:id="@+id/contact_home_lv_item_tra_icon"
+	                android:layout_width="@dimen/contact_home_icon_w"
+	                android:layout_height="@dimen/contact_home_icon_w"
+	                android:layout_below="@id/contact_home_lv_item_tel_tv"
+	                android:layout_marginLeft="@dimen/contact_home_icon_ml"
+	                android:layout_marginTop="@dimen/contact_home_tra_icon_mt"
+	                android:src="@drawable/contact_home_tra_icon"
+	                />
+	            <TextView 
+	                android:id="@+id/contact_home_remark_tv"
+	                android:layout_width="@dimen/contact_home_remark_w"
+	                android:layout_height="@dimen/contact_home_remark_h"
+	                android:layout_below="@id/contact_home_lv_item_tel_tv"
+	                android:layout_toRightOf="@id/contact_home_lv_item_tra_icon"
+	                android:layout_marginLeft="@dimen/contact_home_tv_ml"
+	                android:gravity="top"
+	                android:singleLine="true"
+	                android:text="2013.12.16到件，于8号上午取。"
+	                android:textColor="#000000"
+	                android:textSize="15sp"
+	                />
+			</RelativeLayout>
+			
+    	
+		
+</LinearLayout>

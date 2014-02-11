@@ -1,0 +1,71 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/all_home_bg"
+    >
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical">
+   <RelativeLayout 
+       android:layout_width="match_parent"
+       android:layout_height="98dp"
+       android:focusable="true"
+   	   android:focusableInTouchMode="true">
+       <EditText 
+	        android:id="@+id/output_home_search_et"
+	        android:layout_width="@dimen/input_home_search_et_w"
+	        android:layout_height="@dimen/input_home_search_et_h"
+	        android:layout_marginTop="@dimen/input_home_search_et_mt"
+	        android:layout_marginLeft="@dimen/input_home_search_et_ml"
+	        android:background="@drawable/input_home_search_et"
+	        android:singleLine="true"
+	        style="@style/input_home_et"/>
+	    
+	    <Button 
+	        android:id="@+id/output_home_search_bt"
+	        android:layout_toRightOf="@id/output_home_search_et"
+	        style="@style/input_home_bt"
+	        />
+   </RelativeLayout>
+
+	<ListView
+	    android:id="@+id/output_lv"
+	    android:layout_width="match_parent"
+	    android:layout_height="fill_parent"
+	    android:listSelector="@android:color/transparent" >
+	</ListView>
+	
+	</LinearLayout>
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="60dp"
+	    android:layout_gravity="bottom"
+	    android:orientation="horizontal"
+	    android:background="@drawable/output_home_bottom_bg">
+	    <Button 
+	        android:id="@+id/output_home_return_bt"
+	        android:layout_width="@dimen/output_home_return_bt_w"
+	        android:layout_height="@dimen/output_home_return_bt_h"
+	        android:layout_marginLeft="@dimen/output_home_return_bt_ml"
+	        android:background="@drawable/output_home_return_bt_selector"
+	        android:layout_gravity="center_vertical"
+	        android:text="退件"
+	        android:textColor="#ffffff"
+	        android:textSize="18sp"
+	        />
+	    <Button 
+	        android:id="@+id/output_home_sent_bt"
+	        android:layout_width="@dimen/output_home_return_bt_w"
+	        android:layout_height="@dimen/output_home_return_bt_h"
+	        android:layout_marginLeft="@dimen/output_home_sent_bt_ml"
+	        android:background="@drawable/output_home_sent_bt_selector"
+	        android:layout_gravity="center_vertical"
+	        android:text="取件"
+	        android:textColor="#ffffff"
+	        android:textSize="18sp"
+	        />
+	</LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/all_home_bg"
+    android:orientation="vertical"
+    tools:context=".InputActivity">
+   
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:focusable="true"
+    	android:focusableInTouchMode="true">
+    	<Button 
+    	    android:id="@+id/input_home_scan_bt"
+    	    android:layout_width="@dimen/input_home_scan_bt_w"
+    	    android:layout_height="@dimen/input_home_scan_bt_h"
+    	    android:layout_marginTop="@dimen/input_home_scan_bt_mt"
+    	    android:layout_marginLeft="@dimen/input_home_scan_bt_ml"
+    	    android:background="@drawable/input_newform_order_selector"
+    	    android:text="扫描"/>
+	    <EditText 
+	        android:id="@+id/input_home_search_et"
+	        android:layout_toRightOf="@id/input_home_scan_bt"
+	        android:layout_width="210dp"
+	        android:layout_height="@dimen/input_home_search_et_h"
+	        android:layout_marginTop="@dimen/input_home_search_et_mt"
+	        android:layout_marginLeft="8dp"
+	        android:background="@drawable/input_home_search_et"
+	        android:singleLine="true"
+	        style="@style/input_home_et"/>
+	    
+	    <Button 
+	        android:id="@+id/input_home_search_bt"
+	        android:layout_toRightOf="@id/input_home_search_et"
+	        android:layout_width="@dimen/input_home_search_bt_w"
+        	android:layout_height="@dimen/input_home_search_bt_h"
+       		android:layout_marginTop="@dimen/input_home_search_bt_mt"
+        	android:layout_marginLeft="@dimen/input_home_search_bt_ml"
+        	android:background="@drawable/input_home_search_btn"
+	        />
+	   
+	    <Button 
+	        android:id="@+id/input_home_newform_bt"
+	        android:layout_width="@dimen/input_home_newform_bt_w"
+	        android:layout_height="@dimen/input_home_newform_bt_h"
+	        android:layout_marginTop="@dimen/input_home_newform_bt_mt"
+	        android:layout_marginLeft="@dimen/input_home_newform_bt_ml"
+	        android:layout_below="@id/input_home_search_et"
+	        style="@style/input_home_newform_bt_style"/>
+	    
+	    <Button 
+	        android:id="@+id/input_home_newform_btn"
+	        android:layout_width="@dimen/input_home_newform_btn_w"
+	        android:layout_height="@dimen/input_home_newform_btn_h"
+	        android:layout_marginTop="@dimen/input_home_newform_btn_mt"
+	        android:layout_marginLeft="@dimen/input_home_newform_btn_ml"
+	        android:layout_toRightOf="@id/input_home_newform_bt"
+	        style="@style/input_home_newform_btn_style"
+	        />
+	    
+   </RelativeLayout>
+	
+    <ListView 
+       android:id="@+id/input_home_lv"
+       android:layout_width="match_parent"
+       android:layout_height="fill_parent"
+       android:listSelector="@android:color/transparent"
+       />
+
+</LinearLayout>
